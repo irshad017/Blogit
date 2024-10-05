@@ -4,35 +4,29 @@ Visit the live website: [BlogIt](https://blogit-two.vercel.app/)
 
 ## Project Overview
 
-This project integrates a robust backend using **Hono** and **Prisma** with a dynamic frontend built with **React** and **Tailwind CSS**.
+This project integrates a robust backend using **Hono** and **Prisma** with a dynamic frontend built with **React** and **Tailwind CSS**. 
 
 The platform is designed like **Medium**, where users can post blogs, read blogs from others, and engage in personal chats.
 
 ## 🌟 Backend Features
 
 - **User Authentication**:
-  - **Endpoints**: 
-    - `POST /signup`: User registration.
-    - `POST /signin`: User login with JWT for secure access.
+  - `POST /signup`: User registration.
+  - `POST /signin`: User login with JWT for secure access.
 
 - **Blog Management**:
-  - **Endpoints**: 
-    - `POST /create`: Create a blog post.
-    - `GET /getblog/:id`: Retrieve a single blog post.
-    - `GET /getblogs`: Retrieve all blog posts.
-    - `GET /userblog`: Retrieve blogs by a user.
+  - `POST /create`: Create a blog post.
+  - `GET /getblog/:id`: Retrieve a single blog post.
+  - `GET /getblogs`: Retrieve all blog posts.
+  - `GET /userblog`: Retrieve blogs by a user.
 
-- **Message Handling**: 
-  - Real-time communication with message routing.
+- **Message Handling**: Real-time communication with message routing.
 
-- **Database**: 
-  - Utilizes **Prisma ORM** for data management, connected to **SQLPrisma Avion** database.
+- **Database**: Utilizes **Prisma ORM** for data management, connected to **SQLPrisma Avion** database.
 
-- **CORS Support**: 
-  - Enables cross-origin requests for seamless integration.
+- **CORS Support**: Enables cross-origin requests for seamless integration.
 
-- **Error Handling**: 
-  - Comprehensive error management for unauthorized access and server errors.
+- **Error Handling**: Comprehensive error management for unauthorized access and server errors.
 
 ## 📦 Libraries & Technologies Used
 
@@ -80,56 +74,33 @@ The platform is designed like **Medium**, where users can post blogs, read blogs
 ## 🎨 Frontend Features
 
 - **Responsive Design**:
-  - Beautiful mobile-friendly interface using **Tailwind CSS**.
+  - Mobile-friendly interface using **Tailwind CSS**.
 
 - **Dynamic Components**:
-  - User-friendly components for signup/login, blog creation, and messaging.
+  - User-friendly signup/login, blog creation, and messaging.
 
 - **Blog and Chat Functionality**:
-  - Like **Medium**, users can post blogs, read blogs from others, and chat personally with other users.
+  - Users can post blogs, read others' blogs, and chat personally.
 
 - **API Integration**:
-  - Fetches data from the backend using **Axios** for seamless interaction.
+  - Fetches backend data using **Axios** for seamless interaction.
 
 - **Navigation**:
-  - Responsive navigation bar with smooth transitions and user-friendly layout.
+  - Responsive navigation bar with smooth transitions.
 
 - **Enhanced UI**:
-  - Stylish forms and buttons with animations for improved user experience.
+  - Stylish forms and buttons with animations.
 
 - **Weather UI Component**:
-  - Fetches and displays weather data in an appealing format.
+  - Fetches and displays weather data in a visually appealing format.
 
 ## 🚀 Deployment
 
-- **Backend**: Deployed on **SQLPrisma Avion** database, utilizing **Hono** for the routing framework and **Prisma** for database management.
-- **Frontend**: Deployed on **Vercel**. Access it at: **`https://blogit-two.vercel.app/`**.
+- **Backend**: Deployed on **SQLPrisma Avion** database, utilizing **Hono** and **Prisma**.
+- **Frontend**: Deployed on **Vercel**. Access it here: **[BlogIt](https://blogit-two.vercel.app/)**.
 
 ## 🛠 Setup Instructions
 
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/project-name.git
-
-Navigate to the project directory:
-bash
-Copy code
-cd project-name
-Install backend dependencies:
-bash
-Copy code
-npm install
-Set up environment variables:
-Create a .env file and add the following variables:
-env
-Copy code
-DATABASE_URL=your_database_url
-JWT_SECRET=your_secret_key
-Run Prisma Migrations:
-bash
-Copy code
-npx prisma migrate dev
-Start the development server:
-bash
-Copy code
-npm start
