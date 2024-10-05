@@ -2,6 +2,8 @@
 
 This project integrates a robust backend using **Hono** and **Prisma** with a dynamic frontend built with **React** and **Tailwind CSS**.
 
+The platform is designed like **Medium**, where users can post blogs, read blogs from others, and engage in personal chats.
+
 ## 🌟 Backend Features
 
 - **User Authentication**:
@@ -28,6 +30,49 @@ This project integrates a robust backend using **Hono** and **Prisma** with a dy
 - **Error Handling**: 
   - Comprehensive error management for unauthorized access and server errors.
 
+## 📦 Libraries & Technologies Used
+
+### 1. **Hono**
+   - Fast, small web framework for building APIs.
+   - **[Hono Documentation](https://hono.dev/)**
+
+### 2. **Prisma**
+   - Modern ORM tool to interact with SQL databases.
+   - **Commands**:
+     - `npx prisma migrate dev` - Apply schema changes.
+     - `npx prisma generate` - Generate Prisma client.
+   - **[Prisma Documentation](https://www.prisma.io/docs/)**
+
+### 3. **@prisma/client**
+   - Auto-generated Prisma client for type-safe database queries.
+
+### 4. **bcrypt**
+   - Hashes passwords for secure authentication.
+   - **Installation**:
+     ```bash
+     npm install bcrypt
+     ```
+
+### 5. **dotenv**
+   - Loads environment variables from `.env` file to secure sensitive data.
+   - **Installation**:
+     ```bash
+     npm install dotenv
+     ```
+
+### 6. **Typescript**
+   - Provides static typing for better code quality and error prevention.
+   - **Installation**:
+     ```bash
+     npm install typescript
+     ```
+
+### 7. **CORS Middleware**
+   - Enables Cross-Origin Resource Sharing for secure integration between frontend and backend.
+
+### 8. **JWT (JSON Web Token)**
+   - Used for secure authentication, managing session tokens across requests.
+
 ## 🎨 Frontend Features
 
 - **Responsive Design**:
@@ -35,6 +80,12 @@ This project integrates a robust backend using **Hono** and **Prisma** with a dy
 
 - **Dynamic Components**:
   - User-friendly components for signup/login, blog creation, and messaging.
+
+- **Blog and Chat Functionality**:
+  - Like **Medium**, users can post blogs, read blogs from others, and chat personally with other users.
+
+- **API Integration**:
+  - Fetches data from the backend using **Axios** for seamless interaction.
 
 - **Navigation**:
   - Responsive navigation bar with smooth transitions and user-friendly layout.
@@ -52,8 +103,6 @@ This project integrates a robust backend using **Hono** and **Prisma** with a dy
 
 ## 🛠 Setup Instructions
 
-1. Clone the repository.
-2. Set up environment variables for the backend: `DATABASE_URL`, `JWT_SECRET`.
-3. Install backend dependencies:
+1. **Clone the repository**:
    ```bash
-   npm install
+   git clone https://github.com/yourusername/project-name.git
