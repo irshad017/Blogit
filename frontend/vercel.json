@@ -3,7 +3,27 @@
       {
         "src": "/blogs",
         "dest": "/"
-      }
+      },
+      {
+        "src": "/signup",
+        "dest": "/"
+      },
+      {
+        "src": "/getblogs/(.*)",
+        "dest": "/"
+      },
+      {
+        "src": "/myblogs",
+        "dest": "/"
+      },
+      {
+        "src": "/createNew",
+        "dest": "/"
+      },
+      {
+        "src": "/chatRoom",
+        "dest": "/"
+      },  
     ]
 }
   
