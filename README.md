@@ -20,7 +20,7 @@ This project integrates a robust backend using **Hono** and **Prisma** with a dy
   - Real-time communication with message routing.
 
 - **Database**: 
-  - Utilizes **Prisma** ORM for data management, connected via environment variable.
+  - Utilizes **Prisma** ORM for data management, connected to **SQLPrisma Avion** database.
 
 - **CORS Support**: 
   - Enables cross-origin requests for seamless integration.
@@ -47,7 +47,8 @@ This project integrates a robust backend using **Hono** and **Prisma** with a dy
 
 ## 🚀 Deployment
 
-The backend is deployed and accessible at: **`https://<your-backend-url>`**. Ensure to replace `<your-backend-url>` with your actual backend deployment URL.
+- **Backend**: Deployed on **SQLPrisma Avion** database.
+- **Frontend**: Deployed on **Vercel**. Access it at: **`https://<your-frontend-url>`**. Ensure to replace `<your-frontend-url>` with your actual frontend deployment URL.
 
 ## 🛠 Setup Instructions
 
