@@ -110,3 +110,22 @@ The platform is designed like **Medium**, where users can post blogs, read blogs
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/project-name.git
+   cd project-name
+   npm install
+  Create a .env file and add the following variables:
+  
+    DATABASE_URL=your_database_url
+    JWT_SECRET=your_secret_key
+  Run Prisma Migrations:
+  
+    npx prisma migrate dev
+
+  Start the development server:
+
+    npm start
+
+    
+
+
+   
+
