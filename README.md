@@ -1,4 +1,8 @@
-# Project Overview
+# BlogIt - A Blogging Platform
+
+Visit the live website: [BlogIt](https://blogit-two.vercel.app/)
+
+## Project Overview
 
 This project integrates a robust backend using **Hono** and **Prisma** with a dynamic frontend built with **React** and **Tailwind CSS**.
 
@@ -99,7 +103,7 @@ The platform is designed like **Medium**, where users can post blogs, read blogs
 ## 🚀 Deployment
 
 - **Backend**: Deployed on **SQLPrisma Avion** database, utilizing **Hono** for the routing framework and **Prisma** for database management.
-- **Frontend**: Deployed on **Vercel**. Access it at: **`https://<your-frontend-url>`**. Ensure to replace `<your-frontend-url>` with your actual frontend deployment URL.
+- **Frontend**: Deployed on **Vercel**. Access it at: **`https://blogit-two.vercel.app/`**.
 
 ## 🛠 Setup Instructions
 
