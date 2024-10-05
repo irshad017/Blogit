@@ -4,21 +4,23 @@ Project Overview
 This project integrates a robust backend using Hono and Prisma with a dynamic frontend built with React and Tailwind CSS.
 
 Backend Features
-    User Authentication:
-    
-    User registration (/signup) and login (/signin) endpoints with JWT for secure access.
-    Blog Management:
-    
-    Create, retrieve, and delete blog posts with endpoints: /create, /getblog/:id, /getblogs, and /userblog.
-    Message Handling:
-    
-    Integration of message routing for real-time communication.
-    Database:
-    
-    Utilizes Prisma ORM connected via environment variable for data management.
-    CORS Support:
-    
-    Implements CORS to enable cross-origin requests.
+
+
+User Authentication:
+
+User registration (/signup) and login (/signin) endpoints with JWT for secure access.
+Blog Management:
+
+Create, retrieve, and delete blog posts with endpoints: /create, /getblog/:id, /getblogs, and /userblog.
+Message Handling:
+
+Integration of message routing for real-time communication.
+Database:
+
+Utilizes Prisma ORM connected via environment variable for data management.
+CORS Support:
+
+Implements CORS to enable cross-origin requests.
 Error Handling:
 
 Comprehensive error handling for unauthorized access and server errors.
